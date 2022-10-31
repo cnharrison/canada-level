@@ -29,7 +29,7 @@ const Footer: FC<FooterProps> = ({ onResetClick, onSaveClick, shouldShow }) => (
         background: '#FFF',
         borderRadius: 3,
         boxShadow: '0 0 0 2px #111',
-        marginLeft: '6px',
+        marginLeft: '1px',
         backgroundColor: '#ffb',
         fontFamily: 'Varela',
         marginRight: 6,
@@ -45,11 +45,25 @@ const Footer: FC<FooterProps> = ({ onResetClick, onSaveClick, shouldShow }) => (
         color: '#111',
         cursor: 'pointer',
         padding: '6px 8px',
-        background: '#FFF',
+        marginLeft: '1px',
+        fontFamily: 'Varela',
+        marginRight: 6,
+      }}
+      onClick={() => window.open('https://github.com/cnharrison/canada-level')}
+    >
+      Github
+    </div>
+    <div
+      style={{
+        fontSize: 16,
+        lineHeight: '24px',
+        color: '#111',
+        cursor: 'pointer',
+        padding: '6px 8px',
         borderRadius: 3,
         boxShadow: '0 0 0 2px #111',
         marginLeft: '6px',
-        backgroundColor: '#ffb',
+        backgroundColor: '#fff',
         fontFamily: 'Varela',
         marginRight: 6,
       }}
