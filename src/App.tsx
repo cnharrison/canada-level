@@ -5,6 +5,7 @@ import Map from './Map';
 import Modal from './Modal';
 import { getColorFromValue, getRandomIndex } from './util';
 import { svgExport } from 'svg-in-png';
+import { Analytics } from '@vercel/analytics/react';
 
 const backgroundColors = [
   '#F9CDC7',
@@ -45,10 +46,8 @@ const App = () => {
     x: undefined,
     y: undefined,
   });
-
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [shouldShowFooter, setShouldShowFooter] = useState(false);
-
   const [mapState, setMapState] = useState(defaultMapStateValue);
 
   const { x, y } = frozenMousePosition;
@@ -186,13 +185,9 @@ const App = () => {
         nsFill={nsFill}
         peFill={peFill}
       />
-      {
-        <Footer
-          onResetClick={onResetClick}
-          onSaveClick={onSaveClick}
-          shouldShow={shouldShowFooter}
-        />
-      }
+
+      <Footer onResetClick={onResetClick} onSaveClick={onSaveClick} shouldShow={shouldShowFooter} />
+      <Analytics />
     </div>
   );
 };
