@@ -39,7 +39,7 @@ const Map: FC<MapProps> = ({
   level,
 }) => {
   return (
-      <svg x="0" y="0" version="1.1" viewBox="0 0 953.5 810.2" className="svg">
+      <svg x="0" y="0" version="1.1" viewBox="0 0 953.5 810.2" className="svg" width="953.5" height="810.2">
         <path
           d="m2.7 395.7 14.9 269.2 113.6 3.3-14.9-218.3z"
           className="st1"
