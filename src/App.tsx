@@ -1,4 +1,3 @@
-// @ts-ignore
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Footer from './Footer';
 import Map from './Map';
