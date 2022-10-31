@@ -1,4 +1,4 @@
-# Map Levels -- 🇨🇦 edition 
+# Map Levels --Canadian edition 
 Mark your Canadian travel footprint, inspired by [US Level](https://tenpages.github.io/us-level/us.html). 
 [Flex on your fellow Canadians here!!](https://canada-level.vercel.app/)
 
