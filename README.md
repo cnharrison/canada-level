@@ -5,6 +5,3 @@ Mark your Canadian travel footprint, inspired by [US Level](https://tenpages.git
 
 # How to
 Tap or click the province to change its status. Use the Save button at the bottom to download an image of your map. 
-
-# Hire me 
-I'm a mid level software engineer looking for a new gig! [Hire me](https://www.linkedin.com/in/harrisonatwork/)!
